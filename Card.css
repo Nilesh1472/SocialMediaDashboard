@@ -1,0 +1,70 @@
+/* Basic CSS for the dashboard and card components */
+
+.dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-icon {
+    font-size: 40px;
+    color: #4CAF50;
+  }
+  /* Refresh Button Style */
+.refresh-button {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    padding: 12px 24px;         /* Padding for a nice size */
+    border: none;               /* Remove the default border */
+    border-radius: 8px;         /* Rounded corners */
+    cursor: pointer;           /* Show a pointer on hover */
+    font-size: 16px;            /* Increase font size for better readability */
+    font-weight: bold;          /* Make the text bold */
+    text-transform: uppercase;  /* Uppercase text */
+    transition: all 0.3s ease;  /* Smooth transition for hover and active states */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 20px;           /* Space from other content */
+    outline: none;              /* Remove outline on focus */
+  }
+  
+  .refresh-button:hover {
+    background-color: #45a049;  /* Darker green when hovered */
+    transform: translateY(-2px); /* Slightly lift the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+  }
+  
+  .refresh-button:active {
+    background-color: #388e3c;  /* Even darker green when clicked */
+    transform: translateY(0);   /* Reset the lift effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow on click */
+  }
+  
+  .refresh-button:focus {
+    outline: none;  /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(72, 175, 85, 0.5); /* Focus effect with a green outline */
+  }
+  
